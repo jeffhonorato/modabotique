@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="./img/icone.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
     <link href="https://fonts.googleapis.com/css2?family=Abel&family=Josefin+Sans&family=Raleway:wght@100&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/css/main.css">
     <title>Moda Botique</title>
@@ -80,62 +81,91 @@
 
             </div>
 
-            <div class="moda__feminina__container">
-                <div class="moda__fem__cabecalho">
-                    <h2 class="moda__feminina">Moda Feminina</h2>
-                    <h3 class="titulo__blusa">Blusas</h3>       
-                </div>
+          
 
-                <div class="moda__fem__cards">
+            <section class="moda__feminina__container">
 
-                    <div class="moda__fem__card1">
+                <div class="blusas">
 
-                        <img src="./img/moda-feminina/calcados/card-1/img-1.webp" alt="" class="img__card__calcado">                     
-                        
-
-                        <div class="moda__card__info">
-                            <p class="moda__card__nome">Tênis Asics Gel-Nagoya 4 - Feminino</p>
-                            <p class="moda__card__preco">R$: 300,00</p>
-                            <p class="moda__card__parcela">ou 6x de R$: 50,00</p>
+                    <div class="moda__fem__cabecalho">
+                        <h2 class="moda__feminina">Moda Feminina</h2>
+                        <h3 class="titulo__blusa">Blusas</h3>       
+                    </div>
+    
+                    <div class="moda__fem__cards__blusas">
+    
+                        <div class="moda__fem__card1">
+    
+                            <img src="./img/moda-feminina/calcados/card-1/img-1.webp" alt="" class="img__card__calcado">                     
+                            
+    
+                            <div class="moda__card__info">
+                                <p class="moda__card__nome">Tênis Asics Gel-Nagoya 4 - Feminino</p>
+                                <p class="moda__card__preco">R$: 300,00</p>
+                                <p class="moda__card__parcela">ou 6x de R$: 50,00</p>
+                            </div>
+    
+                            <div class="moda__card__botoes">
+                                <a class="btn__detalhes">Detalhes</a>
+                                <a class="btn__contato">Contato</a>
+                            </div>
+                            
                         </div>
-
-                        <div class="moda__card__botoes">
-                            <a class="btn__detalhes">Detalhes</a>
-                            <a class="btn__contato">Contato</a>
-                        </div>
-                        
+    
+    
+    
+    
                     </div>
 
-                    <div class="moda__fem__card1">
+                    <div class="modal__fem__blusas">
 
-                        <img src="./img/moda-feminina/calcados/card-1/img-1.webp" alt="" class="img__card__calcado">                     
-                        
+                        <div class="modal__fem__blusa1">
 
-                        <div class="moda__card__info">
-                            <p class="moda__card__nome">Tênis Asics Gel-Nagoya 4 - Feminino</p>
-                            <p class="moda__card__preco">R$: 300,00</p>
-                            <p class="moda__card__parcela">ou 6x de R$: 50,00</p>
+                            <div class="swiper mySwiper">
+                                <div class="swiper-wrapper">
+
+                                    <div class="swiper-slide">
+                                        <img src="./img/moda-feminina/calcados/card-1/img-1.webp" alt="" class="tenis">
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="./img/moda-feminina/calcados/card-1/img-2.webp" alt="" class="tenis">
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="./img/moda-feminina/calcados/card-1/img-3.webp" alt="" class="tenis">
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="./img/moda-feminina/calcados/card-1/img-4.webp" alt="" class="tenis">
+                                    </div>
+                                 
+                                    
+                                    
+                                  
+                                </div>
+
+                                    <div class="swiper-button-next"></div>
+                                    <div class="swiper-button-prev"></div>
+                                    <div class="swiper-pagination"></div>
+
+                            </div>
                         </div>
-
-                        <div class="moda__card__botoes">
-                            <a class="btn__detalhes">Detalhes</a>
-                            <a class="btn__contato">Contato</a>
-                        </div>
-                        
                     </div>
 
-
-
                 </div>
-            </div>
+
+                
+            </section>
 
 
         </article>
+
 
     </main>
 
 
 <script src="./js/menu-mobile.js"></script>
+<script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+<script src="./js/moda-fem-modal-blusas.js"></script>
+
 
 </body>
 </html>
