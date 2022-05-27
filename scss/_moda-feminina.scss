@@ -38,9 +38,13 @@
     }
 
     .moda__fem__cards {
-        width: 220px;
+        display: flex;
+        gap: 1rem;
+        flex-wrap: wrap;
+        padding: .5rem;
 
         .moda__fem__card1 {
+            width: 220px;
             box-shadow: 2px 2px 2px 2px rgba(175, 162, 162, 0.6);
         }
 
@@ -72,6 +76,36 @@
             font-weight: bold;
             text-align: center;
             margin-bottom: 1rem;
+        }
+    }
+
+    .moda__card__botoes {
+        display: flex;
+        justify-content: center;
+        gap: .5rem;
+        padding: .5rem;
+        
+
+
+        .btn__detalhes {
+            font-family: $fonte-corpo;
+            font-weight: bold;
+            padding: .5rem;
+            background: $cor-sectionFem;
+            border-top-right-radius: 20%;
+            color: #fff;
+            cursor: pointer;
+
+        }
+
+        .btn__contato {
+            font-family: $fonte-corpo;
+            font-weight: bold;
+            padding: .5rem;
+            background-color: $cor-links;
+            color: #fff;
+            border-top-right-radius: 20%;
+            cursor: pointer;
         }
     }
 
