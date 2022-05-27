@@ -2,7 +2,7 @@
     position: relative;
 
 
-    
+
 
     .moda__feminina__menu {
         display: flex;
@@ -12,6 +12,7 @@
         top: 10px;
         left: 5px;
         width: 150px;
+        height: 100vh;
         background-color: cornflowerblue;
     }
 
@@ -19,9 +20,9 @@
         display: flex;
         gap: .3rem;
         align-items: center;
-        box-shadow: 1px 1px 1px 1px #000;
         padding: .5rem;
-        transform: skewY(-5deg);
+        width: 100px;
+        cursor: pointer;
     }
     
     .img__icone__menu {
