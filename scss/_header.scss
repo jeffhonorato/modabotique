@@ -8,18 +8,25 @@
 
     .nav {
         position: fixed;
-        top: 5px;
-        right: 20px;
+        top: 55px;
+        right: 10px;
     }
 
     .menu__mobile {
+        position: fixed;
+        top: 2px;
+        right: 10px;
         width: 50px;
         cursor: pointer;
     }
 
     .nav__itens {
-        display: flex;
+        display: none;
         flex-direction: column;
+    }
+
+    .nav__itens.show {
+        display: flex;
     }
 
 
