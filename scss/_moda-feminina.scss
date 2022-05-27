@@ -1,16 +1,12 @@
 .moda__feminina__box {
-    position: relative;
+    display: grid;
+    grid-template-columns: 150px 1fr;
 
     .moda__feminina__menu {
         display: flex;
         flex-direction: column;
-        gap: .5rem;
-        position: absolute;
-        top: 10px;
-        left: 5px;
-        width: 150px;
-        height: 100vh;
         background-color: cornflowerblue;
+
     }
 
     .menu__link {
@@ -18,7 +14,6 @@
         gap: .3rem;
         align-items: center;
         padding: .5rem;
-        width: 100px;
         cursor: pointer;
     }
     
@@ -27,8 +22,6 @@
     }
 
     .moda__feminina__cards {
-        position: absolute;
-        left: 200px;
         background-color: darkseagreen;
     }
 }
