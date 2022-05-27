@@ -7,23 +7,29 @@
         flex-direction: column;
         background-color: cornflowerblue;
 
+        .menu__link {
+            display: flex;
+            gap: .3rem;
+            align-items: center;
+            padding: .5rem;
+            cursor: pointer;
+        }
+        
+        .img__icone__menu {
+            width: 30px;
+        } 
     }
 
-    .menu__link {
-        display: flex;
-        gap: .3rem;
-        align-items: center;
-        padding: .5rem;
-        cursor: pointer;
-    }
-    
-    .img__icone__menu {
-        width: 30px;
-    }
 
     .moda__feminina__cards {
         background-color: darkseagreen;
+
+        .cards__blusas {
+            text-align: center;
+        }
     }
+
+    
 }
 
 

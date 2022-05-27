@@ -1,5 +1,5 @@
 .header {
-    background-color: teal;
+    background-color: $cor-header;
 
     .logo {
         width: 200px;
@@ -9,7 +9,7 @@
     .nav {
         position: fixed;
         top: 55px;
-        right: 10px;
+        right: 0px;
     }
 
     .menu__mobile {
@@ -23,6 +23,7 @@
     .nav__itens {
         display: none;
         flex-direction: column;
+        background-color: $cor-header;
     }
 
     .nav__itens.show {
@@ -33,7 +34,12 @@
 
     .nav__link {
         padding: 1rem;
-        background-color: wheat;
+    }
+
+    .nav__item {
+        font-family: $fonte-menu;
+        font-weight: bold;
+        font-size: 1.2rem;
     }
 
 
