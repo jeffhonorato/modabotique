@@ -24,8 +24,16 @@
     .moda__feminina__cards {
         background-color: darkseagreen;
 
-        .cards__blusas {
+        .moda__fem__cabecalho {
             text-align: center;
+        }
+
+        .moda__feminina {
+            font-family: $fonte-titulo;
+        }
+
+        .titulo__blusa {
+            font-family: $fonte-titulo;
         }
     }
 
