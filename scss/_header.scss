@@ -1,0 +1,36 @@
+.header {
+    background-color: teal;
+
+    .logo {
+        width: 200px;
+        padding: .5rem;
+    }
+
+    .nav {
+        position: fixed;
+        top: 5px;
+        right: 20px;
+    }
+
+    .menu__mobile {
+        width: 50px;
+        cursor: pointer;
+    }
+
+    .nav__itens {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+
+    .nav__link {
+        padding: 1rem;
+        background-color: wheat;
+    }
+
+
+
+
+
+}
