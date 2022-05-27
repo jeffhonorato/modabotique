@@ -1,9 +1,6 @@
 .moda__feminina__box {
     position: relative;
 
-
-
-
     .moda__feminina__menu {
         display: flex;
         flex-direction: column;
@@ -27,6 +24,12 @@
     
     .img__icone__menu {
         width: 30px;
+    }
+
+    .moda__feminina__cards {
+        position: absolute;
+        left: 200px;
+        background-color: darkseagreen;
     }
 }
 
