@@ -7,6 +7,10 @@
         flex-direction: column;
         background-color: cornflowerblue;
 
+            @include celular {
+                width: 50px;
+            }
+
         .menu__link {
             display: flex;
             gap: .3rem;
@@ -18,6 +22,14 @@
         .img__icone__menu {
             width: 30px;
         } 
+
+        .menu__titulo {
+            font-family: $fonte-menu;
+
+                @include celular {
+                    display: none;
+                }
+        }
     }
 
 
@@ -118,42 +130,12 @@
     margin-top: 4rem;
 }
 
-.tenis {
-    width: 200px;
-}
 
 
 
 
 
-/********* SWIPER JS *********/
-    .swiper {
-        width: 300px;
-    }
 
-    .swiper-slide {
-        text-align: center;
-        font-size: 18px;
-        /* Center slide text vertically */
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: -webkit-flex;
-        display: flex;
-        -webkit-box-pack: center;
-        -ms-flex-pack: center;
-        -webkit-justify-content: center;
-        justify-content: center;
-        -webkit-box-align: center;
-        -ms-flex-align: center;
-        -webkit-align-items: center;
-        align-items: center;
-    }
 
-//   .swiper-slide img {
-//     display: block;
-//     width: 100%;
-//     height: 100%;
-//     object-fit: cover;
-//   }
 
 
