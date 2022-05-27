@@ -37,6 +37,45 @@
         }
     }
 
+    .moda__fem__cards {
+        width: 220px;
+
+        .moda__fem__card1 {
+            box-shadow: 2px 2px 2px 2px rgba(175, 162, 162, 0.6);
+        }
+
+        .img__card__calcado {
+            display: flex;
+            margin: 0 auto;
+            width: 120px;
+        }
+
+    }
+
+    .moda__card__info {
+        
+        .moda__card__nome {
+            font-family: $fonte-corpo;
+            font-weight: bold;
+            text-align: center;
+            margin-bottom: 1rem;
+        }
+
+        .moda__card__preco {
+            font-family: $fonte-corpo;
+            font-weight: bold;
+            text-align: center;
+        }
+
+        .moda__card__parcela {
+            font-family: $fonte-corpo;
+            font-weight: bold;
+            text-align: center;
+            margin-bottom: 1rem;
+        }
+    }
+
+
     
 }
 
